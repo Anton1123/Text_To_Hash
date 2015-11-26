@@ -165,7 +165,7 @@ class HashArray
 
 		int hashsize()//Number of entries in the hash array.
 		{
-            		return size;
+            return size;
 		}
 
 		void find1timewords() // prints all words that appear only once and then prints the amount of these types of words.
@@ -188,7 +188,7 @@ class HashArray
 		{
 			for (int i = 1; i < n + 1; i++)
 				cout << "\nword: '" << hasharr[HASHSIZE-i].word << "'    frequency: " << hasharr[HASHSIZE-i].frequency;
-            			cout << endl;
+            cout << endl;
 		}
 
 };
